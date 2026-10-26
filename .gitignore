@@ -1,0 +1,49 @@
+# Dataset & Large Files (>100MB limit on GitHub)
+# Catatan: komen_XL.csv berukuran ~279 MB, melebihi batas 100 MB GitHub
+komen_XL.csv
+*.csv
+*.parquet
+*.xlsx
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Machine Learning Models & Serialized Objects
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# Environment Variables & Secrets
+.env
+.env.*
+*.local
+
+# IDE & Editor Configs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS Specific Files
+.DS_Store
+Thumbs.db
+desktop.ini
